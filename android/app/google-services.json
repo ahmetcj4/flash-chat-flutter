@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "412825254443",
+    "firebase_url": "https://flash-chat-bf76d.firebaseio.com",
+    "project_id": "flash-chat-bf76d",
+    "storage_bucket": "flash-chat-bf76d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412825254443:android:32f5630b3b92064ef5486e",
+        "android_client_info": {
+          "package_name": "com.zorer.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412825254443-n3ofcurn9d35fhv5q5mcun6vjjvomhlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMb97H8fC7ZrUnZjsrk_TO6dfkGU1gIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412825254443-n3ofcurn9d35fhv5q5mcun6vjjvomhlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

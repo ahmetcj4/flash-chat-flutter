@@ -51,7 +51,7 @@ class _ChatScreenState extends State<ChatScreen> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             StreamBuilder<QuerySnapshot>(
-                stream: _store.collection('messages').snapshots(),
+                stream: _store.collection('messages').orderBy('at').snapshots(),
                 builder: (c, s) {
                   if (!s.hasData) {
                     return Center(
@@ -98,6 +98,7 @@ class _ChatScreenState extends State<ChatScreen> {
                         {
                           'sender': user.email,
                           'message': message,
+                          'at': FieldValue.serverTimestamp(),
                         },
                       );
                       messageTextController.clear();
